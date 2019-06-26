@@ -1,0 +1,152 @@
+{
+    "trigger_timeout": {
+        "max": 2000,
+        "val": 50,
+        "min": 50,
+        "name": "trigger_timeout"
+    },
+    "cam0": {
+        "camera_index": 0,
+        "serial_number": "40022423",
+        "settings": [
+            {
+                "min": 1,
+                "name": "resize",
+                "val": 28,
+                "max": 100
+            },
+            {
+                "min": 1,
+                "name": "resize2",
+                "val": 61,
+                "max": 100
+            },
+            {
+                "min": 1,
+                "name": "resize3",
+                "val": 75,
+                "max": 100
+            },
+            {
+                "min": 500,
+                "name": "lhs_red",
+                "val": 50000,
+                "max": 100000
+            },
+            {
+                "min": 500,
+                "name": "lhs_sec2",
+                "val": 65000,
+                "max": 100000
+            },
+            {
+                "min": 500,
+                "name": "lhs_sec3",
+                "val": 35000,
+                "max": 100000
+            },
+            {
+                "min": 30,
+                "name": "lhs_rod",
+                "val": 3000,
+                "max": 20000
+            }
+        ]
+    },
+    "cam1": {
+        "camera_index": 1,
+        "serial_number": "40022430",
+        "settings": [
+            {
+                "min": 1,
+                "name": "resize",
+                "val": 28,
+                "max": 100
+            },
+            {
+                "min": 1,
+                "name": "resize2",
+                "val": 61,
+                "max": 100
+            },
+            {
+                "min": 1,
+                "name": "resize3",
+                "val": 75,
+                "max": 100
+            },
+            {
+                "min": 1,
+                "name": "mdl_rod",
+                "val": 200,
+                "max": 2000
+            },
+            {
+                "min": 1,
+                "name": "mdl_rev",
+                "val": 150,
+                "max": 500
+            },
+            {
+                "min": 60,
+                "name": "mdl_sec2",
+                "val": 6000,
+                "max": 15000
+            },
+            {
+                "min": 50,
+                "name": "mdl_sec3",
+                "val": 5000,
+                "max": 15000
+            }
+        ]
+    },
+    "cam2": {
+        "camera_index": 2,
+        "serial_number": "40022432",
+        "settings": [
+            {
+                "min": 1,
+                "name": "resize",
+                "val": 28,
+                "max": 100
+            },
+            {
+                "min": 1,
+                "name": "resize2",
+                "val": 61,
+                "max": 100
+            },
+            {
+                "min": 1,
+                "name": "resize3",
+                "val": 23,
+                "max": 100
+            },
+            {
+                "min": 500,
+                "name": "rhs_red",
+                "val": 25000,
+                "max": 70000
+            },
+            {
+                "min": 30,
+                "name": "rhs_rod",
+                "val": 2000,
+                "max": 20000
+            },
+            {
+                "min": 200,
+                "name": "rhs_sec2",
+                "val": 2200,
+                "max": 20000
+            },
+            {
+                "min": 500,
+                "name": "rhs_sec3",
+                "val": 15000,
+                "max": 50000
+            }
+        ]
+    }
+}
